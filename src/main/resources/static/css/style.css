@@ -1,0 +1,151 @@
+body {
+ background-color: #cccccc;}
+.bannner{
+	
+	width:100%;
+	height:93vh;
+	background:url("https://images.unsplash.com/photo-1539567601-bf304c363f16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80");
+	background-size: cover;
+	
+	
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.my-card{
+	
+	padding:35px;
+	
+}
+.ma-class{
+	
+	background-color: rgb(255, 128, 0);
+}
+.my-btns{
+	padding:15px;
+	
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+padding-top: 45px;
+}
+
+.sidebar{
+	width:18%;
+	background:white;
+	height:100vh;
+	position:fixed;
+	
+	
+	
+}
+
+.sidebar a{
+	
+	display:block;
+	width:100%;
+	padding:10px 25px;
+	text-decoration: none;
+	color:darkgray;
+	
+}
+
+.sidebar a:hover{
+	color:blue;
+	
+}
+
+
+.sidebar .divider{
+	height:.5px;
+	width:100%;
+	
+	color:blue;
+	margin-top: 10px;
+	
+}
+.my_pic{
+	width:30px;
+	height:30px;
+	object-fit: cover;
+	border-radius: 50px;
+	border:1px solid black;
+	
+	
+	
+}
+
+.content{
+	
+	margin-left: 20%;
+}
